@@ -1,0 +1,54 @@
+/* Education.css */
+
+.education {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .education-list {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .education-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .education-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .education-item p {
+    color: #666;
+    line-height: 1.6;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .education h2 {
+      font-size: 2em;
+    }
+    .education-item h3 {
+      font-size: 1.3em;
+    }
+  }
+  

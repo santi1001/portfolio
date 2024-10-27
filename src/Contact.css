@@ -1,0 +1,76 @@
+.contact {
+  padding: 60px 20px;
+  background-color: #1f1f2e; /* Dark blue-gray background */
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 25px;
+  color: #e0e0e0; /* Light gray for contrast against dark background */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  margin-bottom: 35px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  color: #b3b3b3; /* Softer gray for readability */
+}
+
+.contact .contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contact .btn {
+  padding: 12px 30px;
+  background-color: #ff7f50; /* Coral button color for warmth and contrast */
+  color: #1f1f2e; /* Dark color on text for contrast */
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact .btn:hover {
+  background-color: #ff6f3c; /* Slightly darker coral on hover */
+  color: #ffffff; /* Text color contrast */
+  transform: translateY(-3px);
+}
+
+.contact .btn:active {
+  transform: translateY(1px);
+}
+
+.contact-buttons i {
+  margin-right: 8px;
+  color: #4da8da; /* Calming blue for icons */
+  font-size: 1.2em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 2em;
+  }
+  .contact p {
+    font-size: 1em;
+    padding: 0 15px;
+  }
+  .contact .btn {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+}

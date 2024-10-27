@@ -1,0 +1,77 @@
+.header {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #3a6186, #89253e); /* New vibrant gradient */
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.header h1 .highlight {
+  color: #feca57; /* Warm, standout color for highlighting */
+}
+
+.header p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #dcdcdc;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+  padding: 12px 25px;
+  background-color: #ff6b6b; /* Vibrant button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-buttons .btn:hover {
+  background-color: #ee5253; /* Slightly darker on hover */
+  transform: scale(1.05); /* Subtle scale-up on hover */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.5em;
+  transition: color 0.3s, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #feca57; /* Matches the highlight color */
+  transform: translateY(-2px); /* Small lift effect on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5em;
+  }
+  .header p {
+    font-size: 1em;
+  }
+}
